@@ -14,3 +14,21 @@ else
 fi 
 
 # logical or operator 
+
+# if [ $age -lt 18 ] || [ $age -gt 30 ]; then 
+# if [ $age -lt 18 -o $age -gt 30 ]; then 
+if [[ $age -lt 18 || $age -gt 30 ]]; then 
+    echo "You are not eligible"
+
+else
+    echo "You are eligible"
+fi
+
+# logical not operator 
+
+if [ ! $age ]; then 
+    echo "true"
+
+else
+    echo "false"
+fi 
