@@ -1,6 +1,7 @@
 a=""
 
-if [[ -z $a ]]; then
+if [ -z $a ]; then
+# if [[ -z $a ]]; then
     echo "a is an empty string"
 
 else 
