@@ -5,6 +5,13 @@
 # echo "Hi $name"
 
 # read -p "Enter your name: " name
+# echo "Hi $name"
+
+# echo -e "Enter your name: \c"
+# read name
+# echo "Hi $name"
+
+# read -p "Enter your name: " name
 # read -sp "Enter your password: " passwd
 # echo
 # echo "username: $name"
