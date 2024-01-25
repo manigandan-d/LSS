@@ -1,3 +1,5 @@
+#! /bin/bash
+
 a="mani"
 b="anbu"
 

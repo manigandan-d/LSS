@@ -1,3 +1,5 @@
+#! /bin/bash
+
 read -p "Enter the file name: " fname
 
 # Checks if the given file exists or not

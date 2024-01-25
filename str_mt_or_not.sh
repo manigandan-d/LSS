@@ -1,3 +1,5 @@
+#! /bin/bash
+
 a=""
 
 if [ -z $a ]; then
