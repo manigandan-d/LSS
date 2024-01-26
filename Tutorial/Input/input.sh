@@ -11,6 +11,10 @@
 # read name
 # echo "Hi $name"
 
+# echo -n "Enter your name: "
+# read name
+# echo "Hi $name"
+
 # read -p "Enter your name: " name
 # read -sp "Enter your password: " passwd
 # echo
