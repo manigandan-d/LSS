@@ -1,5 +1,9 @@
 #! /bin/bash
 
-echo -n "Enter your name: "
-read name
-echo "Hi $name"
+i=1
+
+while [ $i -le 10 ]; do 
+    echo $i
+    ((i++))
+
+done
