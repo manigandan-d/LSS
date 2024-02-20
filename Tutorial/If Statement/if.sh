@@ -12,6 +12,14 @@ num=0
 #     echo "You entered zero"
 # fi
 
-if (( $num == 0 )); then
-    echo "You entered zero"
-fi
+# if (( $num == 0 )); then
+#     echo "You entered zero"
+# fi
+
+
+# if [ $num -ne 0 ]; then 
+#     echo "You entered non-zero"
+# fi
+
+if (( $num != 0 )); then 
+    echo "You entered non-zero"
