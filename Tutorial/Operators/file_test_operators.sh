@@ -10,7 +10,7 @@ else
     echo "$fname not exist"
 fi 
 
-# checks if the given file if regular file or not
+# checks if the given file is regular file or not
 if [ -f $fname ]; then
     echo "$fname is a regular file"
 
