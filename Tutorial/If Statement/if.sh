@@ -1,10 +1,17 @@
 #! /bin/bash
 
-read -p "Enter the value of: " a
-read -p "Enter the value of b: " b
- 
-# if [ $a -lt $b ]
-# then 
-if [ $a -lt $b ]; then 
-    echo "a is less than b"
+# read -p "Enter a number: " num
+num=0
+
+# if [ $num -eq 0 ]
+# then
+#     echo "You entered zero"
+# fi
+
+# if [ $num -eq 0 ]; then
+#     echo "You entered zero"
+# fi
+
+if (( $num == 0 )); then
+    echo "You entered zero"
 fi

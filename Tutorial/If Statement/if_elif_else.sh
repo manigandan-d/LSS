@@ -1,35 +1,16 @@
 #! /bin/bash
 
-read -p "Enter the value of a: " a
-read -p "Enter the value of b: " b
+hour=$(date +%H)
 
-# if [ $a -eq $b ] 
-if (( $a == $b ))
-then 
-    echo "a and b are equal"
+if [ $hour -ge 5 ] && [ $hour -lt 12 ]; then
+    echo "Good morning!"
 
-# elif [ $a -lt $b ]
-elif (( $a < $b ))
-then 
-    echo "a is less than b"
+elif [ $hour -ge 12 ] && [ $hour -lt 18 ]; then
+    echo "Good afternoon!"
 
-# elif [ $a -gt $b ] 
-elif (( $a > $b ))
-then 
-    echo "a is greater than b"
-    
-# elif [ $a -le $b ] 
-elif (( $a <= $b ))
-then 
-    echo "a is less than or equal to b"
+elif [ $hour -ge 18 ] && [ $hour -lt 22 ]; then
+    echo "Good evening!"
 
-# elif [ $a -ge $b ]
-elif (( $a >= $b ))
-then
-    echo "a is greater than or equal to b"
-
-# elif [ $a -ne $b ] 
-elif (( $a != $b ))
-then 
-    echo "a and b are not equal"
+else
+    echo "Good night!"
 fi

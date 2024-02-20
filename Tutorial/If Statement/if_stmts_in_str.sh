@@ -1,22 +1,18 @@
 #! /bin/bash
 
-a="mani"
-b="anbu"
+a="alex"
+b="jack"
 
-if [ $a == $b ]
 # if [ $a = $b ] 
-then 
+if [ $a == $b ]; then 
     echo "a and b are equal"
 
-elif [[ $a < $b ]]
-then 
+elif [[ $a < $b ]]; then 
     echo "a is less than b"
 
-elif [[ $a > $b ]]
-then 
+elif [[ $a > $b ]]; then 
     echo "a is greater than b"
 
-elif [ $a != $b ]
-then 
+elif [ $a != $b ]; then 
     echo "a and b are not equal"
 fi
