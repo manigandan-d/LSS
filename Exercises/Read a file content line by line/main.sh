@@ -7,7 +7,7 @@ if [ -e $fname ]; then
     #     echo "$line"
     # done < $fname
 
-    cat $fname | while read line; do
+    cat $fname | while IFS= read -r line; do
     echo $line
     done
 
