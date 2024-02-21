@@ -42,21 +42,74 @@
 #         echo "User entered special character" ;;
 
 #     * ) 
-#         echo "Unknown character"
+#         echo "Unknown character" ;;
 # esac
 
 # eg. 3
 
-read -p "Are you a student? [yes or no]: " res
+# read -p "Are you a student? [yes or no]: " res
 
-case $res in 
-    "YES" | "yes" | "Yes" | "y" | "Y" )
-        echo "Yes, I'm a student" ;;
+# case $res in 
+#     "YES" | "yes" | "Yes" | "y" | "Y" )
+#         echo "Yes, I'm a student" ;;
 
-    "NO" | "no" | "No" | "n" | "N" ) 
-        echo "No, I'm not a student" ;;
+#     "NO" | "no" | "No" | "n" | "N" ) 
+#         echo "No, I'm not a student" ;;
+
+#     * ) 
+#         echo "Invalid input" ;;
+# esac
+
+# eg. 4
+
+# read -p "Enter an operations (add, sub, mul, div): " operation
+
+# read -p "Enter two numbers: " num1 num2
+
+# case $operation in
+#     "add" )
+#         res=$(( num1+num2 ))
+#         echo "Result: $res"
+#         ;;
+
+#     "sub" )
+#         res=$((num1-num2))
+#         echo "Result: $res"
+#         ;;
+    
+#     "mul" ) 
+#         res=$(( num1*num2 ))
+#         echo "Result: $res"
+#         ;;
+
+#     "div" ) 
+#         res=$(( num1/num2 ))
+#         echo "Result: $res"
+#         ;;
+
+#     * )
+#         echo "Invalid operator!"
+#         ;;
+
+# esac
+
+#  eg. 5
+
+read -p "Enter a filename: " fname
+
+case $fname in 
+    *.txt ) 
+        echo "$fname is a text file" ;;
+
+    *.jpg | *.png ) 
+        echo "$fname is a image file" ;;
+
+    *.c | *.cpp | *.py ) 
+        echo "$fname is a programming file" ;;
+
+    *.sh ) 
+        echo "$fname is a shell script" ;;
 
     * ) 
-        echo "Invalid input"
+        echo "Unknown type" ;;
 esac
- 
