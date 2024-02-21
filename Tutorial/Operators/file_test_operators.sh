@@ -73,3 +73,15 @@ if [ -s $fname ]; then
 else 
     echo "$fname is empty"
 fi 
+
+read -p "Enter the another file name: " fname2 
+
+if [ $fname -ot $fname2 ]; then 
+    echo "$fname is older than $fname2"
+
+elif [ $fname2 -nt fname ]; then 
+    echo "$fname2 is newer than $fname"
+
+else
+    echo "no such file"
+fi
