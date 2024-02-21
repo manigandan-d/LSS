@@ -1,0 +1,8 @@
+sh
+bash
+dash
+ksh
+csh
+tsh
+zsh 
+fish
