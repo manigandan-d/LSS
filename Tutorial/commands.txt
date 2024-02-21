@@ -277,3 +277,141 @@ Softlink:
 ln -s sourcefile linkfile
 =>Same location/
 =>different-time/file size/Permission
+
+Grep:
+	=>returns the match word
+ 
+grep:
+ 
+grep 'word' filename	=>return match string/substring
+ 
+grep -w 'word' filename =>return word match
+grep -i 'word' filename =>return  ignore case
+grep  '^word' filename =>begining
+grep  'word$' filename =>end
+grep -c 'word' filename=>count
+grep -v 'word' filename =>return non-matched line
+grep -r 'word'	=>return match in given path
+ 
+grep --color 'word' filename
+ 
+grep 'blue\|glue' filename . =>\
+grep -E 'Word' filename
+ 
+egrep:extended grep
+ 
+fgrep: fixed grep
+---------------------------------------------
+ 
+Archive a directory:(tar)
+note:tar will create archive file
+ 
+create an Archive:
+tar -cf  path    sourcedirectory
+ 
+view:
+tar -tf  archive file
+ 
+extract: 
+tar -xf  archive file
+ 
+----------------------
+Archive a file:
+tar -cf Archivefilename   file1 file2 fil3-
+ 
+ 
+find:
+ 
+find -type d	=>Display all directory in present/ sub-dir
+find -type f	=>Display all file in present/ sub-dir
+find . -name '*.exe'	=>Display all .c file in present/ sub-dir
+ 
+find . -perm 777	=>Display all file of given permission
+ 
+find . -iname  filename
+ 
+---------------------------
+copies all .c file to given destination
+find  path  -name  '*.c'  -exec      cp {}  ./tempbackup/  \;
+ 
+remove all .c file to given destination
+find  sourcepath  -name  '*.c'  -exec      rm {}   \;
+----
+zip:
+gzip filename =>
+ 
+-1  =>fast compress
+-9  =>slow compress
+ 
+default =>-5
+size: 77731
+gzip filename =>7321
+gzip -1 filename =>11258
+gzip -9 filename =>7302
+ 
+gunzip.gz => unzip
+zcat =>view the content of zip file
+-----------------
+ 
+more/less:
+ 
+more : terminate
+space      =>scroll froward 1 page
+enter       =>line by line
+d	=>scroll forward 1/2 page
+b	=>Scroll backward 1 page
+ 
+less: quit
+ 
+------------------------------------
+Vi Editor:
+ 
+create / open =>vi filename.sh
+excute	      =>sh filename.sh
+ 
+2 Mode:
+	1.insert -insert the data
+	2.esc     -
+ 
+Save & quit:(esc)
+:wq    
+:zz
+:x
+ 
+quit:(force quit)
+:q!
+ 
+ 
+Cursor movement:(esc)
+	h	=>left
+	l 	=>right
+	j	=>down
+	k	=>up
+	$	=>moves cursor to last of current line
+	0	=>moves cursor to begin of current line
+	w	=>next word
+	b	=>move beginning
+	H	=>top of screen
+	M	=>mid of screen
+	L	=>bottom of screen
+ 
+Insert:
+	r	=>replace 1 char
+	R	=>replace until Esc is given
+	i	=>insert before cursor
+	a	=>insert after cursor
+	A	=>end of line
+delete:	
+	x	=>char dele
+	dd	=>delete line
+	ndd
+	dw	=>delete word(under)
+	db	=>delte before  cursor
+ 
+copy:
+	yy	=>copy
+	nyy	=>n copy
+ 
+paste:
+	p	=>paste before
+	P	=>above
