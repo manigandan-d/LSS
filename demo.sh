@@ -1,3 +1,5 @@
 #! /bin/bash
 
-[ $# -eq 0 ] && echo "No arguments provided" || echo "Arguments provided: $@"
+while IFS= read -r line; do 
+    echo "$line"
+done < test.txt
