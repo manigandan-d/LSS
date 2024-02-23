@@ -1,5 +1,7 @@
 #! /bin/bash 
 
+PS3="Select an option: "
+
 select name in jack alex drew; do 
     # echo "$name selected"
     case $name in 
