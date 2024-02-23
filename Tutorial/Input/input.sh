@@ -30,5 +30,9 @@
 # echo $names
 # echo ${names[0]} ${names[1]} ${names[2]}
 
-read -p "Enter your name: "
-echo "Hi $REPLY"
+# read -p "Enter your name: "
+# echo "Hi $REPLY"
+
+read -n 1 chr
+echo
+echo "$chr"
