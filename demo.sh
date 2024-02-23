@@ -1,5 +1,5 @@
-#! /bin/bash
+#! /bin/bash 
 
-while IFS= read -r line; do 
-    echo "$line"
-done < test.txt
+read -p "Enter the file name: " fname
+
+echo "${fname##*.}"
