@@ -4,6 +4,16 @@
 #     echo "$i" 
 # done
 
+# seq start step stop
+
+# for i in `seq 1 2 10`; do 
+#     echo "$i"
+# # done
+
+# for i in $(seq 1 2 10); do 
+#     echo "$i"
+# done
+
 # for i in {1..10}; do 
 # # for i in {1..10..2}; do 
 # # for i in {5..10}; do 
