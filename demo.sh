@@ -1,5 +1,6 @@
 #! /bin/bash 
 
-read -p "Enter the file name: " fname
+read -n 1 char
+echo
 
-echo "${fname##*.}"
+echo "$char"
