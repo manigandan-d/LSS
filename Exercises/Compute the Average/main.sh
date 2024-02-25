@@ -8,7 +8,7 @@ sum=0
 
 for (( i=0; i<$n; i++ )); do
     read x
-    # sum=$(( $sum+$x ))
+    # sum=$(( sum+x ))
     ((sum += x))
 done
 
