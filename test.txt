@@ -1,10 +1,2 @@
-C.B - Cantonment Board/Cantonment 
-C.M.C – City Municipal Council
-C.T – Census Town 
-E.O – Estate Office 
-G.P - Gram Panchayat 
-I.N.A – Industrial Notified Area 
-I.T.S - Industrial Township 
-M – Municipality 
-M.B – Municipal Board 
-M.C – Municipal Committee
+User
+hey consider i have 100 lines of data in the file and i wanna print from 12th line to 22nd line
