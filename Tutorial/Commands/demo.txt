@@ -1,25 +1,9 @@
-Display multiple file:
-cat  file1 file2 file3     =>Display all file information
-cat  file1 - file2 - file3     =>Display all file information
-(ctrl+D)
- 
-Display with Cat:
-cat -n filename	=>gives number for the data in file(including empty line).
-cat -b filename	=>gives number for the data in file(excluding empty line).
-cat -E Filename      	=> mention EOL
-cat -T filename       	=>Tab space (^I)
-cat -S filename	=>reduce multiple space to single line
- 
- 
 File Overwrite:
 cat > filename	=>create a newfile if not Persent
 		=>if the file exist it Overwrites
  
 set  -o noclobber	=>prevent of Overwritting of file
 set +o noclobber	=> Allows Overwritting of file
- 
-Combination:
-cat -n -E filename
  
  
 ls:

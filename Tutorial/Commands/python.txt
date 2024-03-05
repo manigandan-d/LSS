@@ -1,0 +1,14 @@
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+
+
+Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
+
+				Python supports modules and packages, which encourages program modularity and code reuse.
+
+
+Often, programmers fall in love with Python because of the increased productivity it provides.
+
+	Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault.
+			 The debugger is written in Python itself, testifying to Python's introspective power. 
+Thank You 
+Happy Learning
