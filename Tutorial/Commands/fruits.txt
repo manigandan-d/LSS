@@ -5,17 +5,6 @@ banana
 orange
 grape
 watermelon 
-avocado 
-jackfruit
-kiwi
 pomegranate
 lemon
 dragonfruit
-raspberry
-papaya
-strawberry
-pineapple
-mulberry
-fig 
-gooseberry
-blueberry

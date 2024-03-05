@@ -2,24 +2,10 @@ lion
 tiger
 elephant
 cheetah 
-leopard
 bear
-polar bear
 hippo 
 rhino
-fox
-wolf
-jackal
 monkey
 zebra
 giraffee 
-cat 
-dog 
-cow 
-goat
-buffalo
-horse
-donkey 
-deer
-tortoise
-crocodile
+
