@@ -1,0 +1,10 @@
+C 
+C++
+Python
+Java
+JS
+GO 
+Kotlin
+Swift
+RUST 
+SQL
