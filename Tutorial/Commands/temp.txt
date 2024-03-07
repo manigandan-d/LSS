@@ -1,0 +1,10 @@
+zebra
+tiger
+rhino
+monkey
+lion
+hippo 
+giraffee 
+elephant
+cheetah 
+bear
