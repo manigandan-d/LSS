@@ -28,6 +28,7 @@
 
 # echo "linux123 shell456 script789" | tr -d [0-9]
 # echo "linux123 shell456 script789" | tr -d [:digit:]
+# echo "linux123 shell456 script789" | tr -d [:space:]
 
 # Complement the sets
 
