@@ -24,3 +24,7 @@ sort -n scores.txt
 # File with delimiter
 sort -t '#' -k 2 info.txt
 sort -nt '#' -k 1 info.txt
+
+# Sorting data in original file 
+sort -o pro_lang.txt pro_lang.txt
+sort -o temp.txt -r animals.txt
