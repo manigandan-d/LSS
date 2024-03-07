@@ -1,25 +1,28 @@
 #! /bin/bash 
 
-while read line; do
-    # -b 
-    # echo "$line" | cut -b 1
-    # echo "$line" | cut -b 3
-    # echo "$line" | cut -b 1,3,5
-    # echo "$line" | cut -b 1-3 
-    # echo "$line" | cut -b 3-
-    # echo "$line" | cut -b -3 
-    echo "$line" | cut -b 1-3,5-7 
+# cut - cut out the sections from each line of files 
+cut 
 
-    # echo "$line" | cut -c 1
-    # echo "$line" | cut -c 3
-    # echo "$line" | cut -c 1,3,5
-    # echo "$line" | cut -c 1-3
-    # echo "$line" | cut -c 3-
-    # echo "$line" | cut -c -3
-    # echo "$line" | cut -c 1-3,5-7
+# Extract specific byte
+cut -b 1 info.txt 
+cut -b 3 info.txt
+cut -b 1,3,5 info.txt
+cut -b 1-3
+cut -b 3- info.txt
+cut -b -3 info.txt 
+cut -b 1-3,5-7 info.txt
 
-    # echo "line" | cut -f 1-3
-    
-    # echo "line" | cut -d ' ' -f 1-3
-    # echo "line" | cut -d $'\t' -f 1-3
+# Extract specific character 
+cut -c 1 info.txt 
+cut -c 3 info.txt
+cut -c 1,3,5 info.txt
+cut -c 1-3
+cut -c 3- info.txt
+cut -c -3 info.txt 
+cut -c 1-3,5-7 info.txt
+
+# Delimiter
+cut -d '#' -k 2 info.txt 
+# cut -d ' ' -f 1-3 ___
+# cut -d $'\t' -f 1-3 ___
 done
