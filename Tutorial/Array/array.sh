@@ -40,3 +40,10 @@ echo "${data[@]}"
 for ele in "${data[@]}"; do 
     echo "$ele"
 done
+
+# Print the entire array with a space between each element
+echo "${data[*]}"
+
+# Slicing
+slicedArr=("${data[@]:1:3}")
+echo "${slicedArr[@]}"
