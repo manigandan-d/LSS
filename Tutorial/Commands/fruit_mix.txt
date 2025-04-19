@@ -1,6 +1,0 @@
-guava
-Guava
-Apple
-apple
-orange
-Orange

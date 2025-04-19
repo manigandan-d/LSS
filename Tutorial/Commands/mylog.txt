@@ -1,2 +1,0 @@
-cat: nofile.txt: No such file or directory
-cat: nodata.txt: No such file or directory

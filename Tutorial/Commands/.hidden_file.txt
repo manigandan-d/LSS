@@ -1,2 +1,0 @@
-this is a hidden file
-this can be viewed by the ls -a command

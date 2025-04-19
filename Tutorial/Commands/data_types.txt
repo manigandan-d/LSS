@@ -1,9 +1,0 @@
-int 
-float 
-char 
-string 
-boolean
-complex
-structure 
-union 
-enumeration

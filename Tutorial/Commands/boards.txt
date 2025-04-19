@@ -1,7 +1,0 @@
-Arduino
-ESP32
-Raspberry Pi
-Beaglebone Black 
-Jetson Nano
-ESP8266 - added by boards.txt
-PIC - added by boardsLink.txt

@@ -1,2 +1,0 @@
-User
-hey consider i have 100 lines of data in the file and i wanna print from 12th line to 22nd line

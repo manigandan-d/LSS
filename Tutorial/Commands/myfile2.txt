@@ -1,6 +1,0 @@
-all
-are
-created
-by
-tee 
-command

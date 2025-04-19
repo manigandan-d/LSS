@@ -1,6 +1,0 @@
-Bjarne Stroustrup
-Dennis Ritchie
-Guido van Rossum
-Issac Newton
-James Gosling
-Srinivasa Ramanujan
