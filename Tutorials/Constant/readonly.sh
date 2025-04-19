@@ -1,26 +1,21 @@
-#! /bin/bash 
+#!/bin/bash
 
-var=10
-readonly var
-echo "$var"
+# readonly.sh - Demonstrates usage of readonly variables
 
-var=20
-echo "$var"
+# Define a constant using readonly
+readonly pi=3.14
+echo "Pi is: $pi"
 
-msg() {
-    echo "hello"
-}
+# Trying to modify a readonly variable (will result in an error)
+pi=3.14159   # Error: cannot assign to readonly variable
 
-msg
+# Trying to unset a readonly variable (will also result in an error)
+unset pi     # Error: cannot unset readonly variable
 
-readonly -f msg
+# Display all readonly variables
+echo -e "\nAll readonly variables:"
+readonly
 
-msg() {
-    echo "hello world"
-}
-
-msg
-
-# readonly # (or) readonly -p
-readonly -p # display both built-in and user defined readonly variable 
-readonly -f # display both built-in and user defined readonly function
+# Define other constants
+readonly MAX_USERS=100
+readonly VERSION="1.0.0"
