@@ -1,31 +1,10 @@
-#! /bin/bash
+#!/bin/bash
 
-read -p "Enter a number: " num
-# num=0
-# num=10
+# if.sh - Demonstrates basic if statement in Bash
 
-# if [ $num -eq 0 ]
-# then
-#     echo "You entered zero"
-# fi
+num=10
 
-# if [ $num -eq 0 ]; then
-#     echo "You entered zero"
-# fi
-
-# if (( $num == 0 )); then
-#     echo "You entered zero"
-# fi
-
-
-# if [ $num -ne 0 ]; then 
-#     echo "You entered non-zero"
-# fi
-
-if (( $num != 0 )); then 
-    echo "You entered non-zero"
+# Check if the number is greater than 5
+if [ $num -gt 5 ]; then
+    echo "$num is greater than 5"
 fi
-
-# short hand
-
-if [ $num -eq 0 ]; then echo "number is zero"; fi
