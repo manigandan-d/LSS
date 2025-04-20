@@ -1,1 +1,0 @@
-this is test.txt file for checking the file test operators
