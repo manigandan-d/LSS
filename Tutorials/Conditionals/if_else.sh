@@ -1,12 +1,12 @@
-#! /bin/bash
+#!/bin/bash
 
-if [ $# -eq 0 ]; then
-    echo "No arguments provided"
+# if_else.sh - Demonstrates if-else statement in Bash
 
+read -p "Enter a number: " num
+
+# Check if the number is even or odd
+if [ $((num % 2)) -eq 0 ]; then
+    echo "$num is even"
 else
-    echo "Arguments provided: $@"
+    echo "$num is odd"
 fi
-
-# short hand 
-
-[ $# -eq 0 ] && echo "No arguments provided" || echo "Arguments provided: $@"
