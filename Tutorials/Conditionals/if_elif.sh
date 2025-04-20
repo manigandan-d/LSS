@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# if_elif.sh - Prints a greeting based on the current hour
+# if_elif.sh - Demonstrates if-elif-else statement in Bash 
 
 # Get the current hour (24-hour format)
 hour=$(date +%H)
