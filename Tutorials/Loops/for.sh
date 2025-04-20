@@ -1,45 +1,25 @@
-#! /bin/bash 
+#!/bin/bash
 
-# for i in 1 2 3 4 5; do
-#     echo "$i" 
-# done
+# for_loop.sh - Demonstrates the use of for loop in Bash
 
-# seq start step stop
+# Loop over a list of items
+echo "Looping over a list:"
+for item in apple banana cherry; do
+    echo "Fruit: $item"
+done
 
-# for i in `seq 1 2 10`; do 
-#     echo "$i"
-# # done
+echo
 
-# for i in $(seq 1 2 10); do 
-#     echo "$i"
-# done
+# Loop over a range of numbers
+echo "Looping over a range:"
+for i in {1..5}; do
+    echo "Number: $i"
+done
 
-# for i in {1..10}; do 
-# # for i in {1..10..2}; do 
-# # for i in {5..10}; do 
-#     echo "$i"
-# done
+echo
 
-# for (( i=0; i<5; i++ )); do
-#     echo "$i"
-# done
-
-# for command in ls pwd date; do
-#     $command
-# done
-
-# for item in *; do
-#     echo "$item"
-# done
-
-# for item in *; do
-#     if [ -f $item ]; then 
-#         echo "$item"
-#     fi
-# done
-
-for item in *; do
-    if [ -d $item ]; then 
-        echo "$item"
-    fi
+# Loop using C-style syntax
+echo "C-style loop:"
+for ((i = 1; i <= 3; i++)); do
+    echo "Count: $i"
 done
